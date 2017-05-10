@@ -1,0 +1,66 @@
+/*全局设置*/
+*,
+::before,
+::after{
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-box-sizing: border-box;
+}
+body{
+  font-size: 16px;
+  font-family: "Microsoft YaHei",sans-serif;
+  color: #000;
+}
+[class^="icon"]{
+  background: url("../img/sprites.png") no-repeat;
+  background-size: 200px 200px;
+}
+.toubu{
+  height: 45px;
+  width: 100%;
+  background: url("../img/header-bg.png") repeat-x;
+  background-size: 1px 44px;
+  border-bottom: 1px solid #e0e0e0;
+  z-index: 1000;
+}
+a{
+  text-decoration: none;
+  color: #000000;
+}
+ul{
+  list-style: none;
+}
+/*头部*/
+.toubu .icon_back{
+  width:18px;
+  height: 19px;
+  position: absolute;
+  top:0;
+  left: 0;
+  background-position: -20px 0;
+  margin: 14px 10px;
+}
+.toubu form{
+  width: 100%;
+  height: 44px;
+  padding:0 35px;
+}
+.toubu form input{
+  width: 100%;
+  height: 32px;
+  border: 1px solid #c7d1cb;
+  border-radius: 4px;
+  position: relative;
+  top: 7px;
+}
+.toubu .icon_menu{
+  width:18px;
+  height: 19px;
+  position: absolute;
+  top:0;
+  right: 0;
+  background-position: -60px 0;
+  margin: 14px 10px;
+}
+/*左边*/
