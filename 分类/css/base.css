@@ -1,18 +1,17 @@
 /*全局设置*/
 *,
 ::before,
-::after{
+::after {
   margin: 0;
   padding: 0;
   -webkit-tap-highlight-color: transparent;
   -webkit-box-sizing: border-box;
 }
-
-[class^="icon"]{
+[class^="icon"] {
   background: url("../img/sprites.png") no-repeat;
   background-size: 200px 200px;
 }
-.toubu{
+.toubu {
   height: 45px;
   width: 100%;
   background: url("../img/header-bg.png") repeat-x;
@@ -20,29 +19,29 @@
   border-bottom: 1px solid #e0e0e0;
   z-index: 1000;
 }
-a{
+a {
   text-decoration: none;
   color: #000000;
 }
-ul{
+ul {
   list-style: none;
 }
 /*头部*/
-.toubu .icon_back{
-  width:18px;
+.toubu .icon_back {
+  width: 18px;
   height: 19px;
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   background-position: -20px 0;
   margin: 14px 10px;
 }
-.toubu form{
+.toubu form {
   width: 100%;
   height: 44px;
-  padding:0 35px;
+  padding: 0 35px;
 }
-.toubu form input{
+.toubu form input {
   width: 100%;
   height: 32px;
   border: 1px solid #c7d1cb;
@@ -50,81 +49,81 @@ ul{
   position: relative;
   top: 7px;
 }
-.toubu .icon_menu{
-  width:18px;
+.toubu .icon_menu {
+  width: 18px;
   height: 19px;
   position: absolute;
-  top:0;
+  top: 0;
   right: 0;
   background-position: -60px 0;
   margin: 14px 10px;
 }
 /*左边*/
-.fenlei{
+.fenlei {
   width: 100%;
   height: 100%;
   position: relative;
-  padding-top: 45px
+  padding-top: 45px;
 }
-.left{
+.left {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
 }
 .left ul li {
   height: 60px;
   width: 90px;
-  background:#FFFFF0;
+  background: #FFFFF0;
   font-size: 16px;
 }
-.left ul li a{
- height: 60px;
+.left ul li a {
+  height: 60px;
   line-height: 60px;
   text-align: center;
   display: block;
   border: 1px solid #c7d1cb;
 }
 /*右边*/
-.right{
+.right {
   width: 100%;
   height: 100%;
   padding-left: 90px;
   position: absolute;
-  top:36px;
-  right:0;
+  top: 36px;
+  right: 0;
 }
-.right1{
+.right1 {
   padding: 10px 12px;
 }
-.right1 img{
+.right1 img {
   width: 100%;
 }
 /*分类*/
-.remenfenlei{
+.remenfenlei {
   width: 93%;
   height: 100%;
   position: absolute;
-  top:430px;
+  top: 430px;
   left: 100px;
-  right:0;
-  background-color:#cccccc;
-  h3{
-    font-size: 16px;
-    padding-left: 102px;
-    margin: 10px;
-  }
-  ul{
-    text-align: center;
-    li{
-      display: inline-block;
-      width: 32%;
-      img{
-        width: 300px;
-        height: 300px;
-      }
-      p{
-        font-size: 30px;
-      }
-    }
-  }
+  right: 0;
+  background-color: #cccccc;
+}
+.remenfenlei h3 {
+  font-size: 16px;
+  padding-left: 102px;
+  margin: 10px;
+}
+.remenfenlei ul {
+  text-align: center;
+}
+.remenfenlei ul li {
+  display: inline-block;
+  width: 32%;
+}
+.remenfenlei ul li img {
+  width: 300px;
+  height: 300px;
+}
+.remenfenlei ul li p {
+  font-size: 30px;
 }
